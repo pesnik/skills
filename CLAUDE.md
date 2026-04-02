@@ -33,6 +33,17 @@ After `make install`, skills appear in `/skills` and are available globally acro
 3. Update the skills table in `README.md`
 4. Commit and push
 
+## IMPORTANT — Before every commit
+
+Always scan staged changes for sensitive data before committing. Check for:
+
+- Real IP addresses (e.g. `192.168.x.x`, `172.16.x.x`, `10.x.x.x`)
+- Auth accessor IDs (e.g. `auth_ldap_xxxxxxxx` — use `xxxxxxxx` as placeholder)
+- Tokens, passwords, or API keys
+- Usernames or internal hostnames
+
+If any are found, replace with placeholders before committing. Use `localhost` for URLs and `xxxxxxxx` for opaque IDs.
+
 ### SKILL.md format
 
 ```markdown
