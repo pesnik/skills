@@ -50,3 +50,4 @@ description: One-line description — used by Claude to decide when to invoke it
 | Skill | Category | Description |
 |-------|----------|-------------|
 | [hashicorp-vault](.claude/skills/hashicorp-vault/SKILL.md) | Infrastructure | Deploy Vault in Docker, configure LDAP auth, manage policies, use with varlock |
+| [oracle-fusion](.claude/skills/oracle-fusion/SKILL.md) | Enterprise | Automate Oracle Fusion Cloud HCM via Chrome AppleScript — navigate absences, read lists, submit overtime requests |
